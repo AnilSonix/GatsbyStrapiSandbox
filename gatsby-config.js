@@ -11,8 +11,7 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        apiURL: `https://c50e4f3b5e86.ngrok.io/messages`,
-        queryLimit: 1000, // Default to 100
+        apiURL: `https://f39bead3fb0b.ngrok.io`,
         contentTypes: [`messages`],
       },
     },
