@@ -11,7 +11,7 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        apiURL: `https://f39bead3fb0b.ngrok.io`,
+        apiURL: `https://8fce69477bf6.ngrok.io`,
         contentTypes: [`messages`],
       },
     },
